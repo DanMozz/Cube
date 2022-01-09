@@ -1,5 +1,5 @@
 body {
-    background-color: #4a4a4a;
+    background: url("https://www.meme-arsenal.com/memes/b4e91b586aa848bcd1bbb3b276149122.jpg");
 }
 
 .cube {
@@ -34,9 +34,27 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(#0084ff, #e97c00);    
-
+    background: url("Без названия.jfif");    
+    background-size: cover;
     transform: rotateY(calc(90deg * var(--i))) translateZ(150px);
 
+    box-shadow: 0 0 400px rgba(0, 0, 0, 0.835);
 }
 
+.top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 300px;
+    background: url("Без названия.jfif");
+    transform: rotateX(90deg) translateZ(150px);
+    background-size: cover;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
